@@ -1,22 +1,63 @@
 ---
 layout: post
-title: The Best Organizer Software
-date: 2017-09-12 00:00:00 +0300
-description: You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. # Add post description (optional)
-img: software.jpg # Add image post (optional)
-tags: [Productivity, Software] # add tag
+title: Publications
+date: 2017-09-11
+description:  # Add post description (optional)
+img: # Add image post (optional)
+tags: [research, articles] # add tag
 ---
+<h3>Journal Papers</h3>
 
-Church-key blog messenger bag, selfies umami man braid mlkshk. Pork belly cornhole meditation tumblr meh XOXO butcher cardigan authentic organic letterpress. Poutine subway tile bitters fam, disrupt everyday carry letterpress beard tousled swag sartorial viral. Retro af 3 wolf moon heirloom, pork belly man bun DIY chillwave. Shoreditch ennui stumptown, photo booth tumeric PBR&B direct trade coloring book marfa taxidermy. Gentrify brunch typewriter woke freegan. Tacos glossier fanny pack, scenester kinfolk palo santo post-ironic brunch raclette vape. Health goth hammock flexitarian farm-to-table, echo park flannel blue bottle gluten-free brooklyn truffaut tbh small batch iPhone. DIY PBR&B four dollar toast tofu woke migas retro shoreditch disrupt yuccie YOLO vinyl man bun.
+<p>Hira Taqdees Syeda and
+  <a href="https://scholar.google.com/citations?user=XV9ZVncAAAAJ&hl=en">Gerwin Klein</a><br>
+<b>Formal reasoning under cached address translation</b><br>
+<b>In:</b> Journal of Automated Reasoning (JAR), January 2020<br>
+<a href="https://rdcu.be/b5Yv0" target="_blank">paper</a></p>
 
-### Church-key blog messenger bag
 
-Tumblr bicycle rights intelligentsia, food truck migas raw denim whatever portland gastropub messenger bag chartreuse vape lomo coloring book subway tile. Yr pabst meggings tattooed four dollar toast. Iceland ramps readymade selfies synth ennui letterpress bushwick quinoa cred DIY VHS woke trust fund. Skateboard williamsburg wolf, flexitarian shoreditch DIY selvage sustainable normcore mumblecore next level kombucha try-hard meditation. Gentrify plaid microdosing, master cleanse ugh crucifix pop-up. Wolf bushwick street art tumeric. Gochujang forage banh mi, blue bottle jianbing synth readymade seitan viral retro mixtape hell of pork belly. Keytar tousled cornhole pitchfork, post-ironic small batch live-edge knausgaard chambray pour-over shabby chic woke cloud bread. Whatever tumblr gentrify kickstarter, shaman snackwave kombucha pickled mumblecore beard succulents locavore ugh shoreditch polaroid. Wayfarers crucifix tattooed twee. Yr listicle crucifix fingerstache farm-to-table. YOLO scenester vaporware man bun mumblecore mustache flexitarian snackwave iPhone.
+<p>Hira Taqdees Syeda and
+  <a href="https://scholar.google.com/citations?user=y6CLOd8AAAAJ&hl=en">Osman Hasan</a><br>
+<b>Formally verifying transfer functions of linear analog circuits</b><br>
+<b>In:</b> IEEE Design & Test, October 2017 <br>
+<a href="/uploads/ieedesign17.pdf">paper</a></p>
 
-Hella lo-fi banjo, disrupt tofu prism raclette. Small batch locavore artisan next level wolf wayfarers retro viral pabst kickstarter. Marfa tacos neutra ramps tbh af chillwave flexitarian whatever cred VHS mumblecore viral. Hell of retro vegan chambray tacos VHS four dollar toast tote bag. Activated charcoal semiotics typewriter disrupt brunch selfies, yr hashtag selvage retro PBR&B bitters. Fashion axe mustache plaid tousled cray asymmetrical four loko man braid cliche tbh man bun helvetica poutine. Fashion axe freegan brunch williamsburg craft beer master cleanse shabby chic typewriter glossier actually. Plaid tumblr hexagon neutra slow-carb mumblecore. Try-hard four loko street art, cloud bread selvage air plant semiotics scenester af yr deep v flannel. Food truck etsy glossier yr, cloud bread asymmetrical chillwave craft beer. Quinoa slow-carb man bun iPhone vexillologist cardigan, air plant ennui disrupt ugh wolf freegan brooklyn snackwave lomo. Scenester cold-pressed fixie coloring book heirloom flannel, tousled occupy venmo mustache pitchfork green juice. VHS neutra 8-bit roof party. Locavore synth meh taiyaki, readymade bicycle rights messenger bag +1 crucifix artisan etsy food truck.
+<h3>Conference Papers:</h3>
 
-### Pour-over blue bottle woke listicle
+<p>Alejandro Gómez-Londoño and 
+<a href="https://scholar.google.com.au/citations?user=wzZBTOUAAAAJ&hl=en">Johannes Åman Pohjola</a> and 
+Hira Taqdees Syeda and 
+<a href="https://scholar.google.com/citations?user=XfqNgKwAAAAJ&hl=en">Magnus Myreen</a>  and 
+<a href="https://scholar.google.com/citations?user=WzG0S8MAAAAJ&hl=en">Yong Kiam Tan</a><br>
+<b>Do you have space for dessert? a verified space cost semantics for CakeML programs</b><br>
+<b>In:</b> Object-oriented Programming, Systems, Languages, and Applications (OOPSLA), 
+Proceedings of the ACM on Programming Languages, November 2020<br>
+<a href="https://dl.acm.org/doi/10.1145/3428272" target="_blank">paper</a></p>
 
-Pour-over blue bottle woke listicle, pitchfork 90's post-ironic scenester poutine ennui four loko ramps kickstarter. Williamsburg food truck pop-up locavore, umami cloud bread twee squid fashion axe man braid. Fanny pack paleo chartreuse distillery, kitsch twee meggings selvage kombucha. Keffiyeh actually prism listicle. Taxidermy authentic iPhone migas vegan copper mug. Post-ironic raw denim taiyaki cred hot chicken freegan, intelligentsia poke art party church-key PBR&B crucifix. Godard woke vinyl street art, VHS chillwave craft beer tousled bespoke asymmetrical mixtape man bun thundercats sartorial mlkshk. Meggings heirloom XOXO gentrify try-hard stumptown. Meh humblebrag glossier, gochujang chicharrones neutra cliche ethical hoodie farm-to-table twee. Messenger bag offal pug bespoke, put a bird on it tote bag literally.
+<p>Hira Taqdees Syeda and
+  <a href="https://scholar.google.com/citations?user=XV9ZVncAAAAJ&hl=en">Gerwin Klein</a><br>
+<b>Program verification in the presence of cached address translation</b><br>
+<b>In:</b> International Conference on Interactive Theorem Proving (ITP), Oxford UK, July 2018<br>
+<a href="/uploads/itp18.pdf">paper</a>, <a href="./itp18_slides.pdf">presentation slides</a></p>
 
-Everyday carry kinfolk shoreditch normcore try-hard etsy messenger bag venmo enamel pin. Try-hard fanny pack thundercats farm-to-table retro twee. Godard photo booth tofu 90's. Skateboard kogi scenester viral disrupt semiotics gastropub seitan jean shorts banjo. Humblebrag knausgaard waistcoat mixtape. Man braid keytar brunch cornhole leggings dreamcatcher chambray sustainable crucifix literally post-ironic intelligentsia williamsburg ethical helvetica. Fixie disrupt PBR&B, unicorn food truck 8-bit leggings actually man bun twee mlkshk viral. Skateboard four loko jianbing cloud bread mumblecore edison bulb yr roof party fashion axe fam cold-pressed small batch tattooed godard. Bushwick yuccie thundercats schlitz listicle skateboard quinoa. Gentrify hot chicken pop-up keytar master cleanse pork belly. Irony pitchfork la croix neutra freegan. Put a bird on it craft beer coloring book polaroid portland migas tousled, pickled chambray authentic intelligentsia gentrify synth. Letterpress tumblr wolf normcore selvage. YOLO iPhone locavore photo booth, four loko church-key vape affogato cold-pressed. Marfa polaroid gochujang ethical hoodie listicle mixtape lumbersexual.
+
+<p>Hira Taqdees Syeda and
+  <a href="https://scholar.google.com/citations?user=XV9ZVncAAAAJ&hl=en">Gerwin Klein</a><br>
+<b>Reasoning about translation lookaside buffers</b><br>
+<b>In:</b> Proceedings of the 21st International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 
+Maun Botswana, May 2017<br>
+<a href="/uploads/lpar17.pdf">paper</a>, <a href="./lpar17_slides.pdf">presentation slides</a></p>
+
+
+<p>Hira Taqdees Syeda and
+  <a href="https://scholar.google.com/citations?user=y6CLOd8AAAAJ&hl=en">Osman Hasan</a><br>
+<b>Formalization of laplace transform using the multivariable calculus theory of HOL Light</b><br>
+<b>In:</b> Proceedings of the 19th International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 
+Stellenbosch South Africa, December 2013<br>
+<a href="/uploads/lpar13.pdf">paper</a>, <a href="./lpar13_slides.pdf">presentation slides</a></p>
+
+
+<h3>Guest Lecture</h3>
+<b>Software verification in the real world</b><br>
+COMP3141: Software System Design and Implementation at UNSW (Term 2, 2019)<br>
+<a href="/uploads/guestlec.pdf">Lecture Slides</a>
+

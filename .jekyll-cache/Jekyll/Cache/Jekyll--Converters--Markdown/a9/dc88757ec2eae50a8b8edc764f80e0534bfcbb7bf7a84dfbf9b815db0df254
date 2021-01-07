@@ -1,27 +1,19 @@
----
-layout: post
-title: Theses
-date: 2015-09-12
-description: (optional)
-img: # Add image post (optional)
-tags: [PhD, Masters] # add tag
----
-<h3>PhD Thesis</h3>
+I"«<h3>PhD Thesis</h3>
 
-<p>Hira Taqdees Syeda<br>
-<b>Low-level program verification under cached address translation</b><br>
-   UNSW, Sydney Australia, August 2019<br>
+<p>Hira Taqdees Syeda<br />
+<b>Low-level program verification under cached address translation</b><br />
+   UNSW, Sydney Australia, August 2019<br />
 <a href="/uploads/phdthesis.pdf">thesis</a></p>
 
+<h3>Masters Thesis</h3>
 
- <h3>Masters Thesis</h3>
-
-<p>Hira Taqdees Syeda<br>
-<b>Formalization of Laplace transform using the multivariable calculus theory of HOL Light</b><br>
-   SEECS, NUST, Islamabad Pakistan, November 2013<br>
+<p>Hira Taqdees Syeda<br />
+<b>Formalization of Laplace transform using the multivariable calculus theory of HOL Light</b><br />
+   SEECS, NUST, Islamabad Pakistan, November 2013<br />
 <a href="/uploads/msthesis.pdf">thesis</a></p>
 
-<h3>PhD Research: TLB Formalisation and Reasoning under Cached Address Translation</h3>
+<h3>PhD Research:</h3>
+<p>TLB Formalisation and Reasoning under Cached Address Translation</p>
 
 <h3>Aim:</h3>
 
@@ -30,15 +22,14 @@ tags: [PhD, Masters] # add tag
  cached address translation.</p>
 
 <h3>Motivation:</h3>
- <p>Operating system (OS) kernels achieve isolation between user-level processes using multi-level
+<p>Operating system (OS) kernels achieve isolation between user-level processes using multi-level
  page tables. Page tables encode the address translation from virtual to physical addresses
  and in most widely deployed architectures, they are hardware-defined data structures that
  reside in main memory, typically as two- to four-level sparse lookup tables. Traversing a
  page table can cost up to five memory accesses, therefore, the hardware-implemented Translation
  Lookaside Buffer (TLB) caches the results of page table lookups.</p>
 
-
- <p>The OS kernel manages page tables, e.g. by adding, removing, or changing mappings.
+<p>The OS kernel manages page tables, e.g. by adding, removing, or changing mappings.
  Since the TLB caches address translation, each of these operations may leave the TLB
  out of date w.r.t. the page table in memory, and the OS kernel must flush (or invalidate)
  the TLB before that lack of synchronisation can affect program execution. If this management
@@ -47,14 +38,14 @@ tags: [PhD, Masters] # add tag
  assume, e.g. wrong memory contents will be read/written, or unexpected memory
  access faults might occur.</p>
 
- <p>While program logics for reasoning in the presence of address translation exist,
+<p>While program logics for reasoning in the presence of address translation exist,
  reasoning in the presence of a TLB has so far remained hard, and is left as an
  assumption in all large-scale operating system (OS) kernel verification projects
  such as seL4 and CertiKOS.</p>
 
 <h3>Challenges:</h3>
- <div id='container'>
-<img src='/assets/img/tlb.png' style='float: right;' width="310" height="160"/>
+<div id="container">
+<img src="/assets/img/tlb.png" style="float: right;" width="310" height="160" />
  <p>Reasoning about programs under TLB-cached address translation is hard, because</p>
  <ul>
    <li>the TLB introduces non-determinism even for otherwise deterministic programs, and</li>
@@ -63,27 +54,23 @@ tags: [PhD, Masters] # add tag
  </ul>
  </div>
 
-
-
-
- <h3>Our Approach:</h3>
- <p>We have approached program verification in the presence
+<h3>Our Approach:</h3>
+<p>We have approached program verification in the presence
    of TLB-cached address translation with these two modules:
  <ul>
    <li>Abstract, sound and formal model of ARMv7-style memory management unit (MMU)</li>
    <li>TLB-aware program logic in Isabelle/HOL</li>
  </ul></p>
 
-  <p><b>Sound abstraction of ARMv7-style MMU:</b> We have developed a formal model of an
+<p><b>Sound abstraction of ARMv7-style MMU:</b> We have developed a formal model of an
  ARMv7-style MMU including TLB and page tables, and have integrated it with the
  Cambridge ARM model. This model establishes the ground truth of how the hardware
  behaves in the presence of a TLB, but is hard to reason about. Therefore, we have
  applied step-wise data refinement in order to arrive at an abstract model
  that is simple, and easier to reason about.</p>
 
-
-   <div id='container'>
-     <img src='/assets/img/refine.png' style='float: right;' width="240" height="180"/>
+<div id="container">
+     <img src="/assets/img/refine.png" style="float: right;" width="240" height="180" />
   <p>Our refinement stack has three levels: first we abstract away the TLB's non-determinism,
  then we remove caching behaviour, eliminating unnecessary state change, and finally we
  arrive at our abstract TLB model. This abstract model captures the functionality of a
@@ -93,9 +80,6 @@ tags: [PhD, Masters] # add tag
     programs and OS code under fixed address translation.</p>
 
    </div>
-
-
-
 
 <p><b>TLB-aware program logic:</b> Based on the abstract memory model, we have defined an
  operational semantics of a simple heap based WHILE language with TLB management
@@ -109,3 +93,4 @@ tags: [PhD, Masters] # add tag
 <p>The logic is generic and can easily be adapted to, for instance, the shallow
  embedding the seL4 specifications use, or the more deeply embedded C
  semantics of the same project.</p>
+:ET

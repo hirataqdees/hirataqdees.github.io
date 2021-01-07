@@ -37,7 +37,7 @@ Proceedings of the ACM on Programming Languages, November 2020<br>
   <a href="https://scholar.google.com/citations?user=XV9ZVncAAAAJ&hl=en">Gerwin Klein</a><br>
 <b>Program verification in the presence of cached address translation</b><br>
 <b>In:</b> International Conference on Interactive Theorem Proving (ITP), Oxford UK, July 2018<br>
-<a href="/assets/img/itp18.pdf">paper</a>, <a href="./itp18_slides.pdf">presentation slides</a></p>
+<a href="/assets/img/itp18.pdf">paper</a>, <a href="/assets/img/itp18_slides.pdf">presentation slides</a></p>
 
 
 <p>Hira Taqdees Syeda and
@@ -45,7 +45,7 @@ Proceedings of the ACM on Programming Languages, November 2020<br>
 <b>Reasoning about translation lookaside buffers</b><br>
 <b>In:</b> Proceedings of the 21st International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 
 Maun Botswana, May 2017<br>
-<a href="/assets/img/lpar17.pdf">paper</a>, <a href="./lpar17_slides.pdf">presentation slides</a></p>
+<a href="/assets/img/lpar17.pdf">paper</a>, <a href="/assets/img/lpar17_slides.pdf">presentation slides</a></p>
 
 
 <p>Hira Taqdees Syeda and
@@ -53,7 +53,7 @@ Maun Botswana, May 2017<br>
 <b>Formalization of laplace transform using the multivariable calculus theory of HOL Light</b><br>
 <b>In:</b> Proceedings of the 19th International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 
 Stellenbosch South Africa, December 2013<br>
-<a href="/assets/img/lpar13.pdf">paper</a>, <a href="./lpar13_slides.pdf">presentation slides</a></p>
+<a href="/assets/img/lpar13.pdf">paper</a>, <a href="/assets/img/lpar13_slides.pdf">presentation slides</a></p>
 
 
 <h3>Guest Lecture</h3>

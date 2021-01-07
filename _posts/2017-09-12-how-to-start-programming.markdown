@@ -11,7 +11,7 @@ tags: [PhD, Masters] # add tag
 <p>Hira Taqdees Syeda<br>
 <b>Low-level program verification under cached address translation</b><br>
    UNSW, Sydney Australia, August 2019<br>
-<a href="/uploads/phdthesis.pdf">thesis</a></p>
+<a href="/assets/img/phdthesis.pdf">thesis</a></p>
 
 
  <h3>Masters Thesis</h3>
@@ -19,7 +19,7 @@ tags: [PhD, Masters] # add tag
 <p>Hira Taqdees Syeda<br>
 <b>Formalization of Laplace transform using the multivariable calculus theory of HOL Light</b><br>
    SEECS, NUST, Islamabad Pakistan, November 2013<br>
-<a href="/uploads/msthesis.pdf">thesis</a></p>
+<a href="/assets/img/msthesis.pdf">thesis</a></p>
 
 <h3>PhD Research: TLB Formalisation and Reasoning under Cached Address Translation</h3>
 

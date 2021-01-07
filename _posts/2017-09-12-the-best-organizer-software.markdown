@@ -19,7 +19,7 @@ tags: [research, articles] # add tag
   <a href="https://scholar.google.com/citations?user=y6CLOd8AAAAJ&hl=en">Osman Hasan</a><br>
 <b>Formally verifying transfer functions of linear analog circuits</b><br>
 <b>In:</b> IEEE Design & Test, October 2017 <br>
-<a href="/uploads/ieedesign17.pdf">paper</a></p>
+<a href="/assets/img/ieedesign17.pdf">paper</a></p>
 
 <h3>Conference Papers:</h3>
 
@@ -37,7 +37,7 @@ Proceedings of the ACM on Programming Languages, November 2020<br>
   <a href="https://scholar.google.com/citations?user=XV9ZVncAAAAJ&hl=en">Gerwin Klein</a><br>
 <b>Program verification in the presence of cached address translation</b><br>
 <b>In:</b> International Conference on Interactive Theorem Proving (ITP), Oxford UK, July 2018<br>
-<a href="/uploads/itp18.pdf">paper</a>, <a href="./itp18_slides.pdf">presentation slides</a></p>
+<a href="/assets/img/itp18.pdf">paper</a>, <a href="./itp18_slides.pdf">presentation slides</a></p>
 
 
 <p>Hira Taqdees Syeda and
@@ -45,7 +45,7 @@ Proceedings of the ACM on Programming Languages, November 2020<br>
 <b>Reasoning about translation lookaside buffers</b><br>
 <b>In:</b> Proceedings of the 21st International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 
 Maun Botswana, May 2017<br>
-<a href="/uploads/lpar17.pdf">paper</a>, <a href="./lpar17_slides.pdf">presentation slides</a></p>
+<a href="/assets/img/lpar17.pdf">paper</a>, <a href="./lpar17_slides.pdf">presentation slides</a></p>
 
 
 <p>Hira Taqdees Syeda and
@@ -53,11 +53,11 @@ Maun Botswana, May 2017<br>
 <b>Formalization of laplace transform using the multivariable calculus theory of HOL Light</b><br>
 <b>In:</b> Proceedings of the 19th International Conference on Logic for Programming, Artificial Intelligence and Reasoning (LPAR), 
 Stellenbosch South Africa, December 2013<br>
-<a href="/uploads/lpar13.pdf">paper</a>, <a href="./lpar13_slides.pdf">presentation slides</a></p>
+<a href="/assets/img/lpar13.pdf">paper</a>, <a href="./lpar13_slides.pdf">presentation slides</a></p>
 
 
 <h3>Guest Lecture</h3>
 <b>Software verification in the real world</b><br>
 COMP3141: Software System Design and Implementation at UNSW (Term 2, 2019)<br>
-<a href="/uploads/guestlec.pdf">Lecture Slides</a>
+<a href="/assets/img/guestlec.pdf">Lecture Slides</a>
 

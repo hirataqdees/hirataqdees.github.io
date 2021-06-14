@@ -1,35 +1,22 @@
-title: Hello from Hira :-)
-description: > # this means to ignore newlines until "baseurl:"
-  Here you will find some information about me.
-permalink: ':title/'
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+# Setup
+title:               Lanyon
+tagline:             'A Jekyll theme'
+description:         'A reserved <a href="https://jekyllrb.com" target="_blank">Jekyll</a> theme that places the utmost gravity on content with a hidden drawer. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:                 http://lanyon.getpoole.com
+baseurl:             ''
+paginate:            5
+permalink:           pretty
 
-# Author Settings
-author: Hira Taqdees Syeda # add your name
-author-img: hira2.png # add your photo
-about-author: I find answers for and about computer systems through formal modelling, development and verification. # add description
-social-twitter: hira_taqdees # add your Twitter handle
-social-facebook: hira.taqdees.98 # add your Facebook handle
-social-github: hirataqdees # add your Github handle
-social-linkedin: hira-taqdees-syeda-55b221169 # add your Linkedin handle
-social-email: hira@chalmers.se# add your Email address
+# About/contact
+author:
+  name:              Mark Otto
+  url:               https://twitter.com/mdo
+  email:             markdotto@gmail.com
 
-# Disqus
-discus-identifier: ms-hira # add your discus identifier
-
-# Tracker
-analytics: # Google Analytics
-
-# Build Settings
-markdown: kramdown
+# Gems
 plugins:
-  - jekyll-sitemap
   - jekyll-paginate
-  - jemoji
 
-paginate: 8
-paginate_path: "/page/:num"
-
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+# Custom vars
+version:             1.1.0
+google_analytics_id: #UA-XXXX-Y

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: PhD Research
-sidebar_link: false
+sidebar_link: true
 ---
 
 <div style= "font-size:15px;">

@@ -69,15 +69,6 @@ body {
   Mobile view
 ----------------------------------------------------------- */
 
-// Hide secondary nav content in sidebar
-// Hide lead paragraph in sidebar
-#sidebar {
-  header ~ *,
-  header ~ nav,
-  p.lead {
-    display: none;
-  }
-}
 
 // Make header elements blend into sidebar / background
 .container > header {

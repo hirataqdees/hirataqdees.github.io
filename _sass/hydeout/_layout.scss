@@ -71,10 +71,7 @@ body {
 
 // Hide secondary nav content in sidebar
 // Hide lead paragraph in sidebar
-#sidebar {
-  header ~ *,
-  header ~ nav
-}
+
 
 // Make header elements blend into sidebar / background
 .container > header {

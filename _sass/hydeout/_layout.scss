@@ -65,30 +65,7 @@ body {
   }
 }
 
-/* -----------------------------------------------------------
-  Mobile view
------------------------------------------------------------ */
 
-
-// Make header elements blend into sidebar / background
-.container > header {
-  background: transparent;
-  color: $sidebar-title-color;
-  margin:
-    ($heading-spacing - $section-spacing)
-    $section-spacing
-    $section-spacing;
-
-  h1,
-  h2 {
-    color: inherit;
-  }
-
-  h1:last-child,
-  h2:last-child {
-    margin-bottom: 0;
-  }
-}
 
 /* -----------------------------------------------------------
   Mobile view for home page)

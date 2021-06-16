@@ -1,13 +1,123 @@
 ---
 layout: page
-title: About
-sidebar_link: true
+title: PhD Research
+sidebar_link: false
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it
-  for your own use upon downloading. Carry on!
-</p>
+<div style= "font-size:15px;">
+<h2>TLB Formalisation</h2>
+ <p>Reasoning under Cached Address Translation</p>
 
-To make pages show up in the sidebar, add `sidebar_link: true` to the front
-matter.
+<h3>Aim:</h3>
+
+ <p>To develop a formal methodology for reasoning about functional correctness of programs
+   in the presence of software-visible details of underlying memory system such as
+   cached address translation.</p>
+
+<h3>Motivation:</h3>
+   <p>Operating system (OS) kernels achieve isolation between user-level processes using multi-level
+   page tables. Page tables encode the address translation from virtual to physical addresses
+   and in most widely deployed architectures, they are hardware-defined data structures that
+   reside in main memory, typically as two- to four-level sparse lookup tables. Traversing a
+   page table can cost up to five memory accesses, therefore, the hardware-implemented Translation
+   Lookaside Buffer (TLB) caches the results of page table lookups.</p>
+
+
+   <p>The OS kernel manages page tables, e.g. by adding, removing, or changing mappings.
+   Since the TLB caches address translation, each of these operations may leave the TLB
+   out of date w.r.t. the page table in memory, and the OS kernel must flush (or invalidate)
+   the TLB before that lack of synchronisation can affect program execution. If this management
+   is done correctly, the TLB has no effect other than speeding up execution. If it is done
+   incorrectly, machine execution will diverge from the semantics usual program logics
+   assume, e.g. wrong memory contents will be read/written, or unexpected memory
+   access faults might occur.</p>
+
+   <p>While program logics for reasoning in the presence of address translation exist,
+   reasoning in the presence of a TLB has so far remained hard, and is left as an
+   assumption in all large-scale operating system (OS) kernel verification projects
+   such as seL4 and CertiKOS.</p>
+
+
+ <h3>Challenges:</h3>
+   <div id='container'>
+ <img src='./assets/img/tlb.png' style='float: right;' width="330" height="160"/>
+   <p>Reasoning about programs under TLB-cached address translation is difficult, because
+   <ul>
+     <li>the TLB introduces non-determinism even for otherwise deterministic programs, and</li>
+     <li>the global state changes even on memory reads, and</li>
+     <li>the TLB introduces new failure modes that need to be avoided.</li>
+   </ul></p>
+   </div>
+
+
+   <h3>Our Approach:</h3>
+   <p>We have approached program verification in the presence
+     of TLB-cached address translation with these two modules:
+   <ul>
+     <li>Abstract, sound and formal model of ARMv7-style memory management unit (MMU)</li>
+     <li>TLB-aware program logic in Isabelle/HOL</li>
+   </ul></p>
+
+    <p><b>Sound abstraction of ARMv7-style MMU:</b> We have developed a formal model of an
+   ARMv7-style MMU including TLB and page tables, and have integrated it with the
+   Cambridge ARM model. This model establishes the ground truth of how the hardware
+   behaves in the presence of a TLB, but is hard to reason about. Therefore, we have
+   applied step-wise data refinement in order to arrive at an abstract model
+   that is simple, and easier to reason about.</p>
+
+
+     <div id='container'>
+       <img src='./assets/img/refine.png' style='float: right;' width="240" height="180"/>
+    <p>Our refinement stack has three levels: first we abstract away the TLB's non-determinism,
+   then we remove caching behaviour, eliminating unnecessary state change, and finally we
+   arrive at our abstract TLB model. This abstract model captures the functionality of a
+   TLB by only keeping record of inconsistent virtual addresses. Addresses can be
+   inconsistent within the TLB and with the page tables in memory. We show that
+   this abstract model is well behaved for standard use cases such as user-level
+      programs and OS code under fixed address translation.</p>
+
+     </div>
+
+
+
+ <p><b>TLB-aware program logic:</b> Based on the abstract memory model, we have defined an
+   operational semantics of a simple heap based WHILE language with TLB management
+   primitives. In addition, we have derived Hoare logic rules for the language,
+   including the TLB primitives, and proved soundness w.r.t. the semantics.</p>
+
+ <p>The strength of this work apart from the logic itself and its soundness is that
+   it can be used to reason effectively and efficiently about kernel code, that it
+   reduces to simple side-condition checks on kernel code that does not modify
+   page tables, and that the logic reduces to standard Hoare logic for user-level code.</p>
+ <p>The logic is generic and can easily be adapted to, for instance, the shallow
+   embedding the seL4 specifications use, or the more deeply embedded C
+   semantics of the same project.</p>
+
+<h3>Publications:</h3>
+
+   <p style="font-size:14px;">
+   <b>Low-Level Program Verification under Cached Address Translation</b> <a href="../assets/img/phdthesis.pdf" target="_blank">[pdf]</a><br>
+    <a href=" https://scholar.google.com.au/citations?user=4PWt3HEAAAAJ&hl=en" target="_blank">Hira T. Syeda</a><br>
+   <b>PhD thesis</b>, In: <b>2019</b></p>
+
+
+<p style="font-size:14px;">
+   <b>Formal reasoning under cached address translation</b> <a href="https://rdcu.be/b5Yv0" target="_blank">[pdf]</a><br>
+    <a href=" https://scholar.google.com.au/citations?user=4PWt3HEAAAAJ&hl=en" target="_blank">Hira T. Syeda</a> and
+     <a href="https://scholar.google.com/citations?user=XV9ZVncAAAAJ&hl=en" target="_blank">Gerwin Klein</a><br>
+   In: <b>JAR2020</b></p>
+
+
+   <p style="font-size:14px;">
+   <b>Program verification in the presence of cached address translation</b> <a href="../assets/img/itp18.pdf" target="_blank">[pdf]</a> <a href="../assets/img/itp18_slides.pdf" target="_blank">[slides]</a><br>
+   <a href=" https://scholar.google.com.au/citations?user=4PWt3HEAAAAJ&hl=en" target="_blank">Hira T. Syeda</a> and
+     <a href="https://scholar.google.com/citations?user=XV9ZVncAAAAJ&hl=en" target="_blank">Gerwin Klein</a><br>
+   In: <b>ITP2018</b></p>
+
+  <p style="font-size:14px;">
+   <b>Reasoning about translation lookaside buffers</b> <a href="../assets/img/lpar17.pdf" target="_blank">[pdf]</a> <a href="../assets/img/lpar17_slides.pdf" target="_blank">[slides]</a><br>
+   <a href=" https://scholar.google.com.au/citations?user=4PWt3HEAAAAJ&hl=en" target="_blank">Hira T. Syeda</a> and
+     <a href="https://scholar.google.com/citations?user=XV9ZVncAAAAJ&hl=en" target="_blank">Gerwin Klein</a><br>
+   In: <b>LPAR2017</b></p>
+
+</div>

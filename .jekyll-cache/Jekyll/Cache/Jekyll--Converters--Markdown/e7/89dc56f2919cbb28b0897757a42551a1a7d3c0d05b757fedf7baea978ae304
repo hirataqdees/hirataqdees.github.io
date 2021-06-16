@@ -1,0 +1,47 @@
+I" 	<div style="font-size:14px;">
+<h2>TLB Formalisation</h2>
+ <p>Reasoning under Cached Address Translation</p>
+
+<h3>Aim:</h3>
+
+ <p>To develop a formal methodology for reasoning about functional correctness of programs
+   in the presence of software-visible details of underlying memory system such as
+   cached address translation.</p>
+
+<h3>Motivation:</h3>
+   <p>Operating system (OS) kernels achieve isolation between user-level processes using multi-level
+   page tables. Page tables encode the address translation from virtual to physical addresses
+   and in most widely deployed architectures, they are hardware-defined data structures that
+   reside in main memory, typically as two- to four-level sparse lookup tables. Traversing a
+   page table can cost up to five memory accesses, therefore, the hardware-implemented Translation
+   Lookaside Buffer (TLB) caches the results of page table lookups.</p>
+
+
+   <p>The OS kernel manages page tables, e.g. by adding, removing, or changing mappings.
+   Since the TLB caches address translation, each of these operations may leave the TLB
+   out of date w.r.t. the page table in memory, and the OS kernel must flush (or invalidate)
+   the TLB before that lack of synchronisation can affect program execution. If this management
+   is done correctly, the TLB has no effect other than speeding up execution. If it is done
+   incorrectly, machine execution will diverge from the semantics usual program logics
+   assume, e.g. wrong memory contents will be read/written, or unexpected memory
+   access faults might occur.</p>
+
+   <p>While program logics for reasoning in the presence of address translation exist,
+   reasoning in the presence of a TLB has so far remained hard, and is left as an
+   assumption in all large-scale operating system (OS) kernel verification projects
+   such as seL4 and CertiKOS.</p>
+
+
+ <h3>Challenges:</h3>
+   <div id="container">
+ <img src="tlb.png" style="float: right;" width="310" height="160" />
+   <p>Reasoning about programs under TLB-cached address translation is hard, because</p>
+   <ul>
+     <li>the TLB introduces non-determinism even for otherwise deterministic programs, and</li>
+     <li>the global state changes even on memory reads, and</li>
+     <li>the TLB introduces new failure modes that need to be avoided.</li>
+   </ul>
+   </div>
+
+</div>
+:ET

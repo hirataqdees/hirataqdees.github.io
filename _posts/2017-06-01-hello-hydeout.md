@@ -58,7 +58,7 @@ I have know-how and know-why about:
 I am the main contributor of <a href="https://github.com/CakeML/cakeml/tree/pancake" target="_blank">Pancake:</a>
 an imperative language with simpler memory model and formally verified implementation to
 program cyber-physical systems. Pancake compiles to the lower stack of <a href="https://cakeml.org" target="_blank">the CakeML compiler</a>.<br>
-<span style="font-size:14px;">With:<a href="http://www.cse.chalmers.se/~myreen/"> Magnus Mayreen</a>, Affiliation:<a href="https://www.chalmers.se/en/Pages/default.aspx"> Chalmers University</a>, Sweden</span>
+<span style="font-size:14px;">With:<a href="http://www.cse.chalmers.se/~myreen/"> Magnus Myreen</a>, Affiliation:<a href="https://www.chalmers.se/en/Pages/default.aspx"> Chalmers University</a>, Sweden</span>
 
 ### PhD Research:
   My PhD research addresses low-level program verification in the presence of cached address translation.

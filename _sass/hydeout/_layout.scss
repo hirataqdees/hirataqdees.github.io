@@ -69,30 +69,30 @@ body {
   Mobile view
 ----------------------------------------------------------- */
 
+// Hide secondary nav content in sidebar
+// Hide lead paragraph in sidebar
 #sidebar {
-
-  // Center sidebar content
-  text-align: center;
-
-  // Bigger title
-  .site-title {
-    font-size: 3.25rem;
-  }
-
-  // Show secondary nav content + lead
   header ~ *,
-  p.lead {
-    display: block;
+  header ~ nav
+}
+
+// Make header elements blend into sidebar / background
+.container > header {
+  background: transparent;
+  color: $sidebar-title-color;
+  margin:
+    ($heading-spacing - $section-spacing)
+    $section-spacing
+    $section-spacing;
+
+  h1,
+  h2 {
+    color: inherit;
   }
 
-  header ~ nav {
-    display: flex;
-  }
-
-  // Slightly more bottom padding to compensate for heading not match 100% of
-  // line-height on top
-  > *:last-child {
-    margin-bottom: 0.5rem;
+  h1:last-child,
+  h2:last-child {
+    margin-bottom: 0;
   }
 }
 

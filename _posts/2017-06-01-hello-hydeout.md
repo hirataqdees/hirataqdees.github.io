@@ -76,7 +76,7 @@ program cyber-physical systems. Pancake compiles to the lower stack of <a href="
    <br>
    <span style="color:black;">Program Committee Member:</span> <span style="color:green;">CPP 2022</span> <br>
    <span style="color:black;">Artifact Evaluation Committee Member:</span> <span style="color:green;">CAV 2021</span> <br>
-   <span style="color:black;">Reviewer and Sub-reviewer:</span> <span style="color:green;">ITP2021, CPP 2021, ASPLOS 2020, SEFM 2020, TFP 2020, CPP 2019, FM 2018, ICFP 2018, CADE26</span> <br>
+   <span style="color:black;">Reviewer and Sub-reviewer:</span> <span style="color:green;">ITP 2021, CPP 2021, ASPLOS 2020, SEFM 2020, TFP 2020, CPP 2019, FM 2018, ICFP 2018, CADE26</span> <br>
    <br>
    </p>
 </div>
